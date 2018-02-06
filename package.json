@@ -1,0 +1,19 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "RESTful todolistApi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "anil",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.5",
+    "google-auth-library": "^0.12.0",
+    "googleapis": "^25.0.0",
+    "mongoose": "^4.11.13",
+    "request": "^2.83.0",
+    "socket.io": "^2.0.4"
+  }
+}
