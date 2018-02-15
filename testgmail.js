@@ -376,7 +376,7 @@ function getMessages(auth) {
 
                         msg_response.redirectUrl = {};
                         msg_response.redirectUrl.dweb = "https://mail.google.com/mail/#all/" + msg.id;
-                        msg_response.redirectUrl.mob = "https://mail.google.com/mail/mu/mp/218/#cv/priority/%5Esmartlabel_personal/" + msg.id;
+                        msg_response.redirectUrl.mob = "https://mail.google.com/mail/mu/mp/218/#cv/priority/%5Esmartlabel_personal/" + msg.threadId;
 
                         msg_response.snippet = response.snippet;
                         var reqmetaArr = response.payload.headers;
